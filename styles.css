@@ -6,7 +6,7 @@
 @font-face {
     font-family: FjordOne;
     src: url(FjordOne-Regular.otf);
-  }
+}
 
 
 body{
@@ -54,7 +54,6 @@ p{
 }
 
 
-
 .form{
     display: flex;
     flex-direction: column;
@@ -62,6 +61,7 @@ p{
     background-color: #e5e5e5;
     height: 100%;
 }
+
 
 .greeting{
     display: flex;
@@ -73,7 +73,6 @@ p{
     color: black;
     font-size: 20px;
     font-weight: 800;
-
 }
 
 
@@ -92,6 +91,7 @@ form{
     width: 100%;
 }
 
+
 fieldset{
     display: flex;
     flex-direction: column;
@@ -102,6 +102,7 @@ fieldset{
     height: 300px
 }
 
+
 fieldset > p {
     font-style: bold;
     font-size: 24px;
@@ -109,9 +110,11 @@ fieldset > p {
     margin-top: 30px;
 }
 
+
 .form-container{
     display: flex;
 }
+
 
 .left-form-container{
     display: flex;
@@ -121,6 +124,7 @@ fieldset > p {
     margin-left: 50px;
 }
 
+
 .right-form-container{
     display: flex;
     flex-direction: column;
@@ -128,11 +132,13 @@ fieldset > p {
     flex: 1 1 auto;
 }
 
+
 label{
     display: block;
     flex: 1 1 auto;
     font-size: 14px;
 }
+
 
 input{
     display: block;
@@ -145,8 +151,14 @@ input{
     font-style: bold;
 }
 
+
 input:focus{
     border-color: blue;
+}
+
+
+#password:invalid, #password_confirmation:invalid{
+    border-color: red;
 }
 
 
@@ -160,15 +172,13 @@ button {
     color: white;
 }
 
+
 form>p {
     margin-left: 50px;
 }
 
+
 a {
     color: #596D48;
     text-decoration: none;
-}
-
-#password:invalid, #password_confirmation:invalid{
-    border-color: red;
 }
