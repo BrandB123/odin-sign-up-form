@@ -66,13 +66,10 @@ p{
 .greeting{
     display: flex;
     flex-direction: column;
-    /*margin-left: 50px;
-    margin-bottom: 50px;*/
     margin: 100px 50px 50px 50px;
     width: 650px;
     justify-content: flex-end;
     flex: 2 1 auto;
-    /*border: 1px solid red;*/
     color: black;
     font-size: 20px;
     font-weight: 800;
@@ -83,7 +80,6 @@ p{
 .form-body{
     display: flex;
     flex: 3 1 auto;
-    /*border: 1px solid blue;*/
     width: 100%;
 }
 
@@ -171,4 +167,8 @@ form>p {
 a {
     color: #596D48;
     text-decoration: none;
+}
+
+#password:invalid, #password_confirmation:invalid{
+    border-color: red;
 }
