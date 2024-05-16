@@ -2,5 +2,7 @@
 
 This sign up form demonstrates an understanding of intermediate HTML and CSS, including concepts such as HTML forms, client-side form validation, pseudo-selectors,and custom fonts.
   
-Photo by Rod Long on Unsplash</a>
+Photo by Rod Long on Unsplash
+
+Live Preview: https://brandb123.github.io/odin-sign-up-form/
   
